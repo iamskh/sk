@@ -21,7 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #333;
+    color: #ffffff;
 }
 
 
@@ -182,7 +182,7 @@ a:after {
 	font-size: 20px;
 	color: white;
 }
-
+/* into Wrap  section */
 /* Intnro Wrap  (played with the padding top and bottom changed from regular 60 each to this current value)*/
 
 #intro {
@@ -202,7 +202,7 @@ a:after {
 	padding-right: 8px;
 	vertical-align: middle;
 }
-
+/* skillwrap section */
 
 #skillswrap {
 	background: #2c3e50;
@@ -215,6 +215,61 @@ a:after {
 	color: white;
 }
 
+/* footwrap section */
+.banner {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(../img/banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.banner h2 {
+	margin: 0;
+	/*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);*/
+	font-size: 3em;
+}
+
+.banner ul {
+	margin-bottom: 0;
+}
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+	ul.banner-social-buttons {
+		float: left;
+		margin-top: 15px;
+	}	
+}
+
+@media (max-width: 767px) {
+	.banner h2 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+		font-size: 3em;
+	}
+
+	ul.banner-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.banner-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}	
+}
+
+footer {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+
+/*
 #footwrap {
 	background: #2f2f2f;
 	padding-top: 60px;
@@ -237,9 +292,10 @@ a:after {
 #footwrap i {
 	padding-right: 8px;
 	color: #1abc9c;
-}
+} 
+*/
 
-/* Copyright Wrap */
+/* Copyright Wrap section */
 
 #c {
 	background: #222222;
@@ -253,7 +309,7 @@ a:after {
 
 
 
-/* Global Values */
+/* Global Values secitons */
 
 .desc {
 	padding-top: 50px;
