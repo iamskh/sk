@@ -187,8 +187,8 @@ a:after {
 
 #intro {
 	background: #2c3e50;
-	padding-top: 30px;
-	padding-bottom: 14px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	color: white;*/
 } 
 
@@ -331,7 +331,7 @@ footer {
 /* Global Values secitons */
 
 .desc {
-	padding-top: 20px;
+	padding-top: 30px;
 
 }
 
