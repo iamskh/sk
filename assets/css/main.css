@@ -1,10 +1,4 @@
- /* Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
+
 
 body {
   background-color: #f2f2f2;
@@ -21,9 +15,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #ffffff;
+    color: #ffffff; #2f2f2f
 }
 
+/* this styling for H5 is aimed at the Education heading specifically */
+H5 {
+	font-family: "Raleway";
+    font-weight: 300;
+    color: #2f2f2f; 
+}
 
 /* Paragraph & Typographic */
 p {
@@ -153,13 +153,13 @@ a:after {
 
 /* Header Wrap (played with the background image and margin, padding top, and also min-height from 500 to 575px for full one page look)*/
 #headerwrap {
-	background: url(../img/myplane.jpg) no-repeat center top;
+	background: url(../img/myview.jpg) no-repeat center top;
 	margin-top: 50px;
 	padding-top:200px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 575px;
+	min-height: 590px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -187,8 +187,8 @@ a:after {
 
 #intro {
 	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 14px;
 	color: white;*/
 } 
 
@@ -202,12 +202,31 @@ a:after {
 	padding-right: 8px;
 	vertical-align: middle;
 }
+
+/* Callout */
+
+
+/*
+.callout  {
+  color: #f8f8f8;
+  display: table;
+  height: 292px;
+  width: 100%;
+  background: url(../img/notes.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/
+
+
+
 /* skillwrap section */
 
 #skillswrap {
 	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 69px;
+	padding-bottom: 68px;
 	color: white;
 }
 
@@ -219,7 +238,7 @@ a:after {
 .banner {
 	padding: 100px 0;
 	color: #f8f8f8;
-	background: url(../img/banner.jpg) no-repeat center center;
+	background: url(../img/banner.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -312,7 +331,8 @@ footer {
 /* Global Values secitons */
 
 .desc {
-	padding-top: 50px;
+	padding-top: 20px;
+
 }
 
 .desc p {
